@@ -73,7 +73,7 @@
     "lint": "eslint . --ext=.js,.jsx",
     "lint:fix": "eslint . --ext=.js,.jsx",
     "clear-cache": "rm -r .cache",
-    "format": "prettier \"**/*.+(js|jsx|json|ts|tsx|css|scss|md|mdx|graphql)\" --write",
+    "format": "prettier \"**/*.+(js|jsx|json|css|scss|md|mdx|graphql)\" --write",
     "start": "rm -rf .cache && cross-env NODE_ENV=development yarn run develop",
     "serve": "gatsby serve",
     "test": "cross-env NODE_ENV=test jest",
