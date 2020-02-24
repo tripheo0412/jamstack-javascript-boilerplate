@@ -1,6 +1,7 @@
 [![Node Version](https://img.shields.io/badge/Node->=10.16.0-339933.svg?style=flat&logo=Node.js)]()
 [![React Version](https://img.shields.io/badge/React-16.12.0-61DAFB.svg?style=flat&logo=React)]()
 [![Gatsby Version](https://img.shields.io/badge/Gatsby-2.19.17-663399.svg?style=flat&logo=Gatsby)]()
+[![Greenkeeper badge](https://badges.greenkeeper.io/tripheo0412/jamstack-javascript-boilerplate.svg)](https://greenkeeper.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat&logo=Read-The-Docs)](https://opensource.org/licenses/MIT)<br/>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9bae6763-56e4-4610-8ad8-eab880fe1a65/deploy-status)](https://app.netlify.com/sites/jamstack-javascript/deploys)
 [Master Branch Live Preview](https://jamstack-javascript.netlify.com/)<br/>
@@ -8,7 +9,8 @@
 [Develop Branch Live Preview](https://jamstack-javascript-develop.netlify.com/)<br/>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/050bee0f-c9ca-4ac0-a982-0c6946c14605/deploy-status)](https://app.netlify.com/sites/jamstack-javascript-storybook/deploys)
 [Storybook Documentation](https://jamstack-javascript-storybook.netlify.com/)<br/>
-[![CircleCI](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate.svg?style=svg)](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate) [![Greenkeeper badge](https://badges.greenkeeper.io/tripheo0412/jamstack-javascript-boilerplate.svg)](https://greenkeeper.io/) [Test status](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate)<br/>
+[![CircleCI](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate.svg?style=svg)](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate)
+[Test status](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate)<br/>
 
 <p align="center">
   <a href="https://reactjs.org/">
