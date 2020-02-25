@@ -85,18 +85,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o build-storybook"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged & yarn test"
-    }
-  },
-  "lint-staged": {
-    "src/*.{js, jsx}": "yarn lint",
-    "**/*.+(js|jsx|json|ts|tsx|css|scss|md|mdx|graphql)": [
-      "yarn format",
-      "git add"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/tripheo0412/jamstack-javascript-boilerplate"
