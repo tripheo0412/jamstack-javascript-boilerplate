@@ -50,7 +50,7 @@
     "jest": "^25.1.0",
     "less": "^3.11.1",
     "lint-staged": "^10.0.7",
-    "netlify-cli": "^2.32.0",
+    "netlify-cli": "^2.38.0",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.12.0",
