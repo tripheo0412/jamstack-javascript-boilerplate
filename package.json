@@ -36,7 +36,7 @@
     "@testing-library/react": "^9.4.0",
     "@types/react": "^16.9.19",
     "babel-jest": "^25.1.0",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.1.0",
     "babel-preset-gatsby": "^0.2.29",
     "core-js": "^3.6.4",
     "css-loader": "^3.4.2",
