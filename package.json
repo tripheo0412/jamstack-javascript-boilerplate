@@ -39,7 +39,7 @@
     "babel-loader": "^8.0.6",
     "babel-preset-gatsby": "^0.2.29",
     "core-js": "^3.6.4",
-    "css-loader": "^3.4.2",
+    "css-loader": "^3.5.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
