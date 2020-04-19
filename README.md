@@ -8,7 +8,7 @@
 [Develop Branch Live Preview](https://jamstack-javascript-boilerplate-develop.netlify.com/)<br/>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/050bee0f-c9ca-4ac0-a982-0c6946c14605/deploy-status)](https://app.netlify.com/sites/jamstack-javascript-boilerplate-storybook/deploys)
 [Storybook Documentation](https://jamstack-javascript-boilerplate-storybook.netlify.com/)<br/>
-[![CircleCI](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate.svg?style=svg)](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate) [![Greenkeeper badge](https://badges.greenkeeper.io/tripheo0412/jamstack-javascript-boilerplate.svg)](https://greenkeeper.io/) [Test status](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate)<br/>
+[![CircleCI](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate.svg?style=svg)](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate) [Test status](https://circleci.com/gh/tripheo0412/jamstack-javascript-boilerplate)<br/>
 
 <p align="center">
   <a href="https://reactjs.org/">
