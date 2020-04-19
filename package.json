@@ -5,12 +5,16 @@
   "version": "1.0.0",
   "author": "Tri Hoang <tripheo0412@gmail.com>",
   "dependencies": {
+    "cross-env": "6.0.0",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.41",
+    "gatsby-plugin-canonical-urls": "^2.2.3",
+    "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-offline": "^3.0.34",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-sitemap": "^2.3.4",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-sharp": "^2.3.14",
     "graphql": "^14.6.0",
@@ -23,6 +27,7 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
+    "@lhci/cli": "^0.3.12",
     "@storybook/addon-a11y": "^5.3.13",
     "@storybook/addon-docs": "^5.3.13",
     "@storybook/addon-info": "^5.3.13",
@@ -38,14 +43,16 @@
     "babel-loader": "^8.0.6",
     "babel-preset-gatsby": "^0.2.29",
     "core-js": "^3.6.4",
-    "cross-env": "^7.0.0",
     "css-loader": "^3.4.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "gatsby-plugin-less": "^3.0.19",
+    "gatsby-plugin-sass": "^2.1.29",
     "husky": "^4.2.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.1.0",
+    "less": "^3.11.1",
     "lint-staged": "^10.0.7",
     "netlify-cli": "^2.32.0",
     "node-sass": "^4.13.1",
@@ -80,19 +87,9 @@
     "ci-test": "cross-env NODE_ENV=test jest -u -w 2",
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o build-storybook"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged & yarn test"
-    }
-  },
-  "lint-staged": {
-    "src/*.{js, jsx}": "yarn lint",
-    "**/*.+(js|jsx|json|ts|tsx|css|scss|md|mdx|graphql)": [
-      "yarn format",
-      "git add"
-    ]
+    "build-storybook": "build-storybook -o build-storybook",
+    "lhci:run": "lhci autorun",
+    "lhci:upload": "lhci upload"
   },
   "repository": {
     "type": "git",
