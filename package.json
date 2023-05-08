@@ -28,7 +28,7 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
-    "@lhci/cli": "^0.3.12",
+    "@lhci/cli": "^0.12.0",
     "@storybook/addon-a11y": "^5.3.13",
     "@storybook/addon-docs": "^5.3.13",
     "@storybook/addon-info": "^5.3.13",
